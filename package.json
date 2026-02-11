@@ -8,7 +8,7 @@
     "./strict": "./src/strict.js",
     "./style": "./src/style.js"
   },
-  "author": "Jimin Park",
+  "author": "Jimin Park (https://github.com/123jimin/)",
   "license": "UNLICENSED",
   "packageManager": "pnpm@10.29.2",
   "peerDependencies": {
