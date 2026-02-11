@@ -1,0 +1,15 @@
+{
+    "cSpell.words": [
+        "Jimin",
+        "jiminp"
+    ],
+    "editor.formatOnSave": true,
+    "eslint.format.enable": true,
+    "prettier.enable": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    }
+}

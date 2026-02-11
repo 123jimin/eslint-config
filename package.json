@@ -1,0 +1,26 @@
+{
+  "name": "@jiminp/eslint-config",
+  "description": "JiminP's personal ESLint configuration.",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js",
+    "./strict": "./src/strict.js",
+    "./style": "./src/style.js"
+  },
+  "author": "Jimin Park",
+  "license": "UNLICENSED",
+  "packageManager": "pnpm@10.29.2",
+  "peerDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.8.0",
+    "eslint": "^10.0.0",
+    "typescript-eslint": "^8.55.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.8.0",
+    "eslint": "^10.0.0",
+    "typescript-eslint": "^8.55.0"
+  }
+}
