@@ -13,7 +13,8 @@
     "./ts": "./src/index.typescript.js",
     "./js": "./src/index.javascript.js",
     "./strict": "./src/strict.js",
-    "./style": "./src/style.js"
+    "./style": "./src/style.js",
+    "./package.json": "./package.json"
   },
   "author": "Jimin Park (https://github.com/123jimin/)",
   "homepage": "https://github.com/123jimin/eslint-config",
@@ -36,6 +37,14 @@
     "@stylistic/eslint-plugin": "^5.8.0",
     "eslint": "^10.0.0",
     "typescript-eslint": "^8.55.0"
+  },
+  "peerDependenciesMeta": {
+    "typescript-eslint": {
+      "optional": true
+    },
+    "@stylistic/eslint-plugin": {
+      "optional": true
+    }
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
