@@ -3,6 +3,9 @@
   "description": "JiminP's personal ESLint configuration.",
   "version": "1.0.0",
   "type": "module",
+  "files": [
+    "src"
+  ],
   "exports": {
     ".": "./src/index.js",
     "./strict": "./src/strict.js",
@@ -10,10 +13,17 @@
   },
   "author": "Jimin Park (https://github.com/123jimin/)",
   "homepage": "https://github.com/123jimin/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/123jimin/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/123jimin/eslint-config/issues"
+  },
   "keywords": [
     "eslint-config"
   ],
-  "license": "UNLICENSED",
+  "license": "Unlicense",
   "packageManager": "pnpm@10.29.2",
   "peerDependencies": {
     "@eslint/js": "^10.0.1",
