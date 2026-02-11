@@ -9,6 +9,10 @@
     "./style": "./src/style.js"
   },
   "author": "Jimin Park (https://github.com/123jimin/)",
+  "homepage": "https://github.com/123jimin/eslint-config",
+  "keywords": [
+    "eslint-config"
+  ],
   "license": "UNLICENSED",
   "packageManager": "pnpm@10.29.2",
   "peerDependencies": {
