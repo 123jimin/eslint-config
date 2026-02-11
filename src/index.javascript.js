@@ -7,7 +7,7 @@ import style from "./style.js";
 /** @type {import('eslint').Linter.Config[]} */
 export default [
     eslint.configs.recommended,
-    strict,
+    ...strict,
     ...style,
     {
         rules: {

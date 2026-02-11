@@ -2,8 +2,8 @@
 
 // Rules follow order from <https://eslint.org/docs/latest/rules/>.
 
-/** @type {import('eslint').Linter.Config} */
-export default {
+/** @type {import('eslint').Linter.Config[]} */
+export default [{
     // Enable stricter checks (less strict than enabling all rules)
     name: "jiminp/strict",
     rules: {
@@ -40,4 +40,4 @@ export default {
         "no-var": "error",
         "prefer-arrow-callback": "error",
     },
-};
+}];

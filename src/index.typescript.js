@@ -9,6 +9,6 @@ import style from "./style.js";
 export default [
     eslint.configs.recommended,
     ...tseslint.configs.recommended,
-    strict,
+    ...strict,
     ...style,
 ];
