@@ -28,7 +28,7 @@ export default [{
         "default-param-last": "error",
         "eqeqeq": ["error", "smart"],
         "guard-for-in": "error",
-        "new-cap": ["error", {capIsNewExceptions: ["Immutable.List", "Immutable.Map"]}],
+        "new-cap": ["error"],
         "no-alert": "error",
         "no-array-constructor": "error",
         "no-caller": "error",
