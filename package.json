@@ -9,11 +9,26 @@
     "src"
   ],
   "exports": {
-    ".": "./src/index.js",
-    "./ts": "./src/index.typescript.js",
-    "./js": "./src/index.javascript.js",
-    "./strict": "./src/strict.js",
-    "./style": "./src/style.js",
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    },
+    "./ts": {
+      "types": "./src/index.typescript.d.ts",
+      "default": "./src/index.typescript.js"
+    },
+    "./js": {
+      "types": "./src/index.javascript.d.ts",
+      "default": "./src/index.javascript.js"
+    },
+    "./strict": {
+      "types": "./src/strict.d.ts",
+      "default": "./src/strict.js"
+    },
+    "./style": {
+      "types": "./src/style.d.ts",
+      "default": "./src/style.js"
+    },
     "./package.json": "./package.json"
   },
   "author": "Jimin Park (https://github.com/123jimin/)",
