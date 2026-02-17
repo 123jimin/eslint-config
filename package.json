@@ -1,7 +1,7 @@
 {
   "name": "@jiminp/eslint-config",
   "description": "JiminP's personal ESLint configuration.",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "type": "module",
   "sideEffects": false,
   "main": "./src/index.js",
