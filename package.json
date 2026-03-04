@@ -29,6 +29,10 @@
       "types": "./src/style.d.ts",
       "default": "./src/style.js"
     },
+    "./imports": {
+      "types": "./src/imports.d.ts",
+      "default": "./src/imports.js"
+    },
     "./package.json": "./package.json"
   },
   "author": "Jimin Park (https://github.com/123jimin/)",
@@ -51,6 +55,7 @@
     "@eslint/js": "^10.0.1",
     "@stylistic/eslint-plugin": "^5.8.0",
     "eslint": "^10.0.0",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
     "typescript-eslint": "^8.55.0"
   },
   "peerDependenciesMeta": {
@@ -59,12 +64,16 @@
     },
     "@stylistic/eslint-plugin": {
       "optional": true
+    },
+    "eslint-plugin-simple-import-sort": {
+      "optional": true
     }
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@stylistic/eslint-plugin": "^5.9.0",
     "eslint": "^10.0.2",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
     "typescript-eslint": "^8.56.1"
   }
 }
