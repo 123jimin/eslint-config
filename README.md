@@ -38,6 +38,17 @@ Sub-configs can also be imported individually:
 | `@jiminp/eslint-config/style`   | Stylistic / formatting rules (4-space indent, semicolons, 1tbs) |
 | `@jiminp/eslint-config/imports` | Import/export sorting via `eslint-plugin-simple-import-sort`    |
 
+## Development
+
+`examples/style.ts` and `examples/style.js` demonstrate the enforced style and must lint clean.
+`examples/violations.ts` documents, line by line, the diagnostics that every config layer must
+report. None of these files are part of the npm package.
+
+```sh
+pnpm lint # Lint this repository (src, test) with its own config.
+pnpm test # Run test/smoke.js: entry points, clean examples, exact violation matching.
+```
+
 ## License
 
 [Unlicense](LICENSE)
